@@ -1,0 +1,77 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"name": "Bridges Rock Gym",
+			"climbType": "gym",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.3074, 37.9001]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		},
+		{
+			"name": "Indian Rock",
+			"climbType": "bouldering",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.2726, 37.8922]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		},
+		{
+			"name": "Dogpatch Boulders",
+			"climbType": "gym",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.3878, 37.7566]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		},
+		{
+			"name": "Berkeley Ironworks",
+			"climbType": "gym",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.2926, 37.8508]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		},
+		{
+			"name": "Great Western Power Company",
+			"climbType": "gym",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-122.2701, 37.8100]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		},
+		{
+			"name": "The Studio Climbing",
+			"climbType": "gym",
+			"type": "Feature",
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-121.8858, 37.3303]
+			},
+			"properties": {
+				"prop0": "value0"
+			}
+		}
+	]
+}

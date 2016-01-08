@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>Neighborhood Map - Climbing Spots</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="js/google-map.js"></script>
     </head>
     <body>
-        <main>
-            <header>
-                <div class="content header-content">
-                </div>
-            </header>
-            <section>
-            </section>
-        </main>
-		<script src='bower_components/jquery/dist/jquery.js'></script>
-		<script src='bower_components/knockout/dist/knockout.js'></script>
+		<div class="flex-box-container">
+			<section id="list-view">
+				<div class ="search">
+					<div>
+						<input data-bind="value: searchTerm" />
+					</div>	
+					<div>
+						<button>Search</button>
+					</div>
+				</div>
+				<div class ="list">
+					<div>
+						<input data-bind="value: searchTerm" />
+					</div>	
+					<div>
+						<button>Search</button>
+					</div>
+				</div>
+
+				<p>First Name: <strong data-bind="text: firstName">todo</strong></p>
+				<p>Last Name: <strong data-bind="text: lastName">todo</strong></p>
+				<p>First Name: <input data-bind="value: firstName" /></p>
+				<p>Last Name: <input data-bind="value: lastName" /></p>
+				<p>Full name: <strong data-bind="text: fullName"></strong></p>
+				<button data-bind="click: capitalizeLastName">Go caps</button>
+			</section>
+			<section id="map-view"></section>
+		</div>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/knockout/dist/knockout.js"></script>
+		<script src="js/octopus.js"></script>
+
     </body>
 </html>
